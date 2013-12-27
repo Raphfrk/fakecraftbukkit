@@ -20,7 +20,19 @@
 		<url>http://raphfrk.com</url>
 	</organization>
 
-				<!-- Repositories -->
+	<!-- Repositories -->
+
+	<distributionManagement>
+		<repository>
+			<id>repo</id>
+			<url>file:../maven-repo/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<url>file:../maven-repo/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<!-- Dependencies -->
 	<dependencies>
 		<dependency>
