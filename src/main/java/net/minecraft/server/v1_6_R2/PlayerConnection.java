@@ -23,6 +23,9 @@
  */
 package net.minecraft.server.v1_6_R2;
 
-public class NetworkManager {
+
+public class PlayerConnection {
+	
+	public final INetworkManager networkManager = null;
 
 }

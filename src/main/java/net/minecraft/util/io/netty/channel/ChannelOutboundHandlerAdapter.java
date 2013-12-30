@@ -21,14 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bukkit.craftbukkit.v1_6_R2.entity;
+package net.minecraft.util.io.netty.channel;
 
-import net.minecraft.server.v1_6_R2.EntityPlayer;
-
-public class CraftPlayer {
+public class ChannelOutboundHandlerAdapter extends ChannelHandlerAdapter {
 	
-	public EntityPlayer getHandle() {
-		return null;
-	}
+	 public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
+	 }
 
 }

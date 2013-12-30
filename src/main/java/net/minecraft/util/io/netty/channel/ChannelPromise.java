@@ -21,12 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bukkit.craftbukkit.v1_6_R3.entity;
+package net.minecraft.util.io.netty.channel;
 
-import net.minecraft.server.v1_6_R3.NetworkManager;
-
-public class PlayerConnection {
-	
-	public NetworkManager networkManager;
+public class ChannelPromise {
 
 }

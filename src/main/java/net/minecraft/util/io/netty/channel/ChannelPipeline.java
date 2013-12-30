@@ -21,14 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bukkit.craftbukkit.v1_6_R2.entity;
+package net.minecraft.util.io.netty.channel;
 
-import net.minecraft.server.v1_6_R2.EntityPlayer;
+public interface ChannelPipeline {
 
-public class CraftPlayer {
+	 public abstract ChannelPipeline addBefore(String s, String s1, ChannelHandler channelhandler);
 	
-	public EntityPlayer getHandle() {
-		return null;
-	}
-
 }

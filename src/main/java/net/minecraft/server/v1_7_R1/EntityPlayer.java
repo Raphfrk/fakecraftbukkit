@@ -21,14 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bukkit.craftbukkit.v1_6_R2.entity;
+package net.minecraft.server.v1_7_R1;
 
-import net.minecraft.server.v1_6_R2.EntityPlayer;
-
-public class CraftPlayer {
+public class EntityPlayer {
 	
-	public EntityPlayer getHandle() {
-		return null;
-	}
+	public PlayerConnection playerConnection;
 
 }

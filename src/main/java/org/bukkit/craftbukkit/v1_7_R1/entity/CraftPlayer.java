@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bukkit.craftbukkit.v1_6_R2.entity;
+package org.bukkit.craftbukkit.v1_7_R1.entity;
 
-import net.minecraft.server.v1_6_R2.EntityPlayer;
+import net.minecraft.server.v1_7_R1.EntityPlayer;
 
 public class CraftPlayer {
 	

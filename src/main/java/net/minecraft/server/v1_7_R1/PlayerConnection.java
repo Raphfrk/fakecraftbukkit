@@ -21,12 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bukkit.craftbukkit.v1_6_R2.entity;
-
-import net.minecraft.server.v1_6_R2.NetworkManager;
+package net.minecraft.server.v1_7_R1;
 
 public class PlayerConnection {
 	
-	public NetworkManager networkManager;
+	public final NetworkManager networkManager = null;
 
 }

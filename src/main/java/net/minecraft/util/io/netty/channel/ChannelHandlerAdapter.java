@@ -21,8 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package net.minecraft.server.v1_6_R3;
+package net.minecraft.util.io.netty.channel;
 
-public class NetworkManager {
+public class ChannelHandlerAdapter implements ChannelHandler {
 
 }
